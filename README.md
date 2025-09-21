@@ -19,7 +19,8 @@ In addition, you can do the same with the pixels_test file in order to look at t
 Once you have confirmed that everything is wired correctly and transmitting the correct data, open Processing and Arduino IDE.  
 1. Upload the pixel_data.ino file to your Arduino.  
 1. In your Processing sketch, copy and paste the code from thermal_visualizer.pde, and run it.  
-1. This should display a grid of squares of varying colors that change colors as objects of different temperatures pass in front of it.  
+1. This should display a grid of squares of varying colors that change colors as objects of different temperatures pass in front of it.
+
 We're done! This is a very simple project, but may seem complicated if you are not aware of how serial ports work in sending data.  
 
 If the .ino files are not uploading to your arduino, try switching to "old bootloader" in your Tools > Processor section of the Arduino IDE.  
