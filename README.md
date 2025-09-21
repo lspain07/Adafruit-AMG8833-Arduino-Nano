@@ -9,3 +9,15 @@ The AMG8833 should be wired to the Nano in the following way:
 * GND to GND
 * SDA to A4
 * SCL to A5
+
+After wiring the camera to the Nano (correctly...), uploading the amg88xx_test file in the library folder to your arduino ensures that everything is working fine.  
+In addition, you can do the same with the pixels_test file in order to look at the way the data changes when objects of differing temperature pass in front of the camera.  
+
+Once you have confirmed that everything is wired correctly and transmitting the correct data, open Processing and Arduino IDE.  
+Upload the pixel_data.ino file to your Arduino.  
+In your Processing sketch, copy and paste the code from thermal_visualizer.pde, and run it.  
+This should display a grid of squares of varying colors that change colors as objects of different temperatures pass in front of it.  
+We're done! This is a very simple project, but may seem complicated if you are not aware of how serial ports work in sending data.  
+
+If the .ino files are not uploading to your arduino, try switching to "old bootloader" in your Tools > Processor section of the Arduino IDE.  
+There will definitely be issues if you do not install the required libraries for both Arduino IDE and Processing. 
