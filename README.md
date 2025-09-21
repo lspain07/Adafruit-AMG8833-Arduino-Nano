@@ -24,4 +24,8 @@ Once you have confirmed that everything is wired correctly and transmitting the 
 We're done! This is a very simple project, but may seem complicated if you are not aware of how serial ports work in sending data.  
 
 If the .ino files are not uploading to your arduino, try switching to "old bootloader" in your Tools > Processor section of the Arduino IDE.  
-There will definitely be issues if you do not install the required libraries for both Arduino IDE and Processing. 
+There will definitely be issues if you do not install the required libraries for both Arduino IDE and Processing.  
+There may also be issues if the wrong port is selected.  
+
+By default, the first available port is selected. Most likely this will be the correct port, but if not, you can look at the console in the Processing IDE to view the names of all available ports.  
+Either plug your arduino into whichever port is first, or change the value of the variable portName in thermal_visualizer.pde to whichever place your desired port has in the console of the Processing IDE. 
