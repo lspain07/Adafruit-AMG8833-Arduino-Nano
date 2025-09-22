@@ -1,5 +1,5 @@
 # Adafruit-AMG8833-Arduino-Nano
-Using an arduino nano and an adafruit AMG8833 grideye thermal camera with Processing.  
+-Using An Arduino Nano And An Adafruit AMG8833 Thermal Camera With Processing-
 Downloading the adafruit AMG88xx library in Arduino IDE is required, and the example files used are listed in the Adafruit Library folder.  
 Downloading the Serial library in Processing is required as well.  
 *I did not write any of the example scripts, those come with the libraries*  
